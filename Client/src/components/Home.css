@@ -1,0 +1,74 @@
+
+.home-container {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10%;
+    background-color: #f4f4f4; /* Background color for the form container */
+    border-radius: 10px; /* Rounded corners for the form container */
+  }
+  
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Adjust spacing between form fields */
+  }
+  
+  label {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: medium;
+  }
+  
+  input[type='text'],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Border color for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+  }
+  
+  input[type='file'] {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  button {
+    background-color: #333; /* Background color for the submit button */
+    color: #fff; /* Text color for the submit button */
+    padding: 10px; 
+    border-radius: 10px; /* Rounded corners for the button */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555; /* Background color on hover */
+  }
+
+  .card{
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 5%;
+    background-color: #f4f4f4; /* Background color for the form container */
+    border-radius: 10px; /* Rounded corners for the form container */
+    flex: 0 0 calc(33.333% - 20px); /* Three cards in a row with some spacing */
+    
+  }
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card:hover {
+      transform: scale(1.1); 
+      border-color:darkblue;
+      border-width: 50%;
+     
+  }
+
+  
+  
